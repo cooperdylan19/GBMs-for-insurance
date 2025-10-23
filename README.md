@@ -1,5 +1,7 @@
 # Using GBMs to predict medical charges
 
+### Gradient Boosting Regressor
+
 The script begins by importing: 
 **pandas** for data handling and preprocessing, 
 **train_test_split** from scikit-learn’s model_selection module to divide the data into training and testing sets, 
@@ -18,3 +20,7 @@ Predictions are generated for both the test set and the training set using the m
 A second GradientBoostingRegressor is then defined, and a parameter grid is created specifying different learning rates and numbers of estimators to test. GridSearchCV systematically trains multiple models using these combinations and selects the parameters that yield the lowest prediction error during cross-validation. The model is retrained with the best parameters, and its performance is evaluated again using MAE on both the training and test data.
 
 Finally, a custom function named predict_charge is defined. This function allows the user to input specific feature values such as age, BMI, number of children, sex code, smoker code, and region code. The inputs are assembled into a one-row pandas DataFrame, passed into the trained model, and the predicted insurance charge is returned.
+
+### XGBoost
+
+
