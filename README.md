@@ -21,6 +21,6 @@ A second GradientBoostingRegressor is then defined, and a parameter grid is crea
 
 Finally, a custom function named predict_charge is defined. This function allows the user to input specific feature values such as age, BMI, number of children, sex code, smoker code, and region code. The inputs are assembled into a one-row pandas DataFrame, passed into the trained model, and the predicted insurance charge is returned.
 
-### XGBoost
+### PyTorch with XGBoost
 
 
