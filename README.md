@@ -1,6 +1,14 @@
-# Using GBMs to predict medical charges
+# Gradient Boosting Methods for Predicting Medical Insurance Costs
 
-### Gradient Boosting Regressor
+📚 **Relevent libraries**: *XGBoost, LightGBM, CatBoost*
+
+#### ⭐ What are GBMs?
+
+#### ⭐ Script 1 (GBM.py): Comparison of XGBoost, LightGBM, and CatBoost Models Tuned Using Bayesian Optimization
+
+.....
+
+#### ⭐ Script 2: Gradient Boosting Regressor
 
 The script begins by importing: 
 **pandas** for data handling and preprocessing, 
