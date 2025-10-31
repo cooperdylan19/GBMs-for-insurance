@@ -1,0 +1,7 @@
+Model,Phase,RMSE,MAE,R2
+CatBoost,Baseline,4429.03,2499.05,0.874
+CatBoost,Tuned,4295.98,2464.1,0.881
+LightGBM,Baseline,4761.21,2878.75,0.854
+LightGBM,Tuned,4335.94,2455.09,0.879
+XGBoost,Baseline,4556.65,2596.1,0.866
+XGBoost,Tuned,4251.56,2454.19,0.884
