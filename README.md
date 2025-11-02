@@ -1,6 +1,6 @@
 # Gradient Boosting Methods for Predicting Medical Insurance Costs
 
-📚 **Relevent libraries**: *XGBoost, LightGBM, CatBoost*
+📚 **Relevent libraries**: *XGBoost, LightGBM, CatBoost, sklearn*
 
 #### ⭐ What are GBMs?
 
@@ -8,7 +8,7 @@
 
 .....
 
-#### ⭐ Script 2: Gradient Boosting Regressor
+#### ⭐ Script 2: GradientBoostingRegressor (from scikit-learn)
 
 The script begins by importing: 
 **pandas** for data handling and preprocessing, 
